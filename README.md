@@ -7,7 +7,7 @@ Python Bootcamp will consist of 20 classes. Each class will have a specific obje
 
 Below is the class schedule:
 | Aula  | Workshop                                                                 |
-|-------|--------------------------------------------------------------------------|---------|
+|-------|--------------------------------------------------------------------------|
 | [Aula 01](./aula01) | Python, Git e VScode: Python do Zero                              
 | [Aula 02](./aula02) | TypeError, Type Check, Type Conversion, try-except e if
 | [Aula 03](./aula03) | Controle de Fluxo: DEBUG, IF, FOR, While, Listas e Dicionários
