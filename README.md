@@ -23,8 +23,8 @@ Below is the class schedule:
 | [Aula 13](./aula11-15) | Introdução às Classes em Python - Parte 02                             |
 | [Aula 14](./aula11-15) | Introdução às Classes em Python - Parte 03                             |
 | [Aula 15](./aula11-15) | Introdução às Classes em Python - Parte 04                             |
-| [Aula 16](./aula16) | Aula de revisão de programação orientada a objetos + SQLModel          |
-| [Aula 17](./aula17) | SQLAlchemy - Conjunto de ferramentas para manipular SQL em Python      |
-| [Aula 18](./aula18) | O que é uma API? Request, Pydantic e fazendo nosso CRUD                |
-| [Aula 19](./aula19) | O que é uma API? Criando nossa primeira API                            |
+| [Aula 16](./aula16) | Aula de revisão de programação orientada a objetos + SQLModel
+| [Aula 17](./aula17) | SQLAlchemy - Conjunto de ferramentas para manipular SQL em Python
+| [Aula 18](./aula18) | O que é uma API? Request, Pydantic e fazendo nosso CRUD
+| [Aula 19](./aula19) | O que é uma API? Criando nossa primeira API
 | [Aula 20](./aula20) | Nosso Projeto de CRUD Backend + Frontend + Banco de Dados
