@@ -27,7 +27,3 @@ Below is the class schedule:
 | [Aula 17](./aula17) | SQLAlchemy - Conjunto de ferramentas para manipular SQL em Python
 | [Aula 18](./aula18) | O que é uma API? Request, Pydantic e fazendo nosso CRUD
 | [Aula 19](./aula19) | O que é uma API? Criando nossa primeira API| [Aula 20](./aula20) | Nosso Projeto de CRUD Backend + Frontend + Banco de Dados
-
-### Commands:
-- print();
-- input;
