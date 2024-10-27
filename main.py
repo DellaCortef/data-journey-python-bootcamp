@@ -15,3 +15,13 @@ value_1 = input("Enter a value: ")
 value_2 = input("Enter another value: ")
 sum = int(value_1) + int(value_2)
 print(sum)
+
+## type of character
+str   = "7"
+int   = 7
+float = 7.0
+
+## type of val
+variable     = val
+VAL_CONSTANT = constant_variable
+_secret_val  = secret_variable
