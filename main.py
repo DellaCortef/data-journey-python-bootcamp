@@ -4,4 +4,4 @@ print(3)
 print(3 + 6)
 
 ## input() command
-input("Enter a number: ")
+print(input("Hello, please" + " enter your name: "))
