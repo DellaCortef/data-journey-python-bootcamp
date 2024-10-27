@@ -17,7 +17,7 @@ Below is the class schedule:
 | [Aula 07](./aula07) | Funções em Python e Estrutura de Dados - Parte 1
 | [Aula 08](./aula08) | Funções em Python e Estrutura de Dados - Parte 2
 | [Aula 09](./aula09) | Funções em Python e Estrutura de Dados - Parte 3
-| Aula 10 | Aula de revisão                        
+|  Aula 10 | Aula de revisão                        
 | [Aula 11](./aula11-15) | Introdução a POO                                                 
 | [Aula 12](./aula11-15) | Introdução às Classes em Python - Parte 01
 | [Aula 13](./aula11-15) | Introdução às Classes em Python - Parte 02
