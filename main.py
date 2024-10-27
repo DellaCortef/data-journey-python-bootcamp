@@ -22,6 +22,11 @@ int   = 7
 float = 7.0
 
 ## type of val
-variable     = val
-VAL_CONSTANT = constant_variable
-_secret_val  = secret_variable
+variable     = "val"
+VAL_CONSTANT = "constant_variable"
+_secret_val  = "secret_variable"
+
+val = True    # boolean
+val = "Della" # string
+val = 3       # int
+val = 3.0     # float
