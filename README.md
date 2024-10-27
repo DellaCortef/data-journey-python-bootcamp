@@ -29,4 +29,5 @@ Below is the class schedule:
 | [Aula 19](./aula19) | O que é uma API? Criando nossa primeira API| [Aula 20](./aula20) | Nosso Projeto de CRUD Backend + Frontend + Banco de Dados
 
 ### Commands:
--print();
+- print();
+- input;
