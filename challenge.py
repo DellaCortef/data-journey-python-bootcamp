@@ -5,12 +5,12 @@ user_name = input("Please, enter your name: ")
 user_salary = input("Please, enter your currently salary: ")
 user_salary = float(user_salary)
 
-##3. Ask the user to inform the amount of the bonus received. Convert to float
-user_bonus = input("Please, enter ypur currently bonus: ")
+##3. Ask the user to inform the amount of the bonus received in percentage. Convert to float
+user_bonus = input("Please, enter ypur currently percentage bonus: ")
 user_bonus = float(user_bonus)
 
 ##4. Calculate the value of the final bonus
-total_amount = user_salary + user_bonus
+total_amount = user_salary * (1 + user_bonus)
 
 ##5. Print the KPI value to the end user
 print(total_amount)
