@@ -34,29 +34,80 @@ import math
 # Floating Point Numbers (`float`)
 
 ## 6. Write a program that receives two floating numbers and adds them.
-value9  = input("Please, enter a number: ")
-value10 = input("Please, enter another number: ")
-total6  = float(value9) + float(value10)
-print(total6)
+# value9  = input("Please, enter a number: ")
+# value10 = input("Please, enter another number: ")
+# total6  = float(value9) + float(value10)
+# print(total6)
 
-## 7. Create a program that calculates the average of two user-supplied floating numbers.
-value11 = input("Please, enter a number: ")
-value12 = input("Please, enter another number: ")
-total7  = (float(value11) + float(value12)) / 2
-print(total7)
+# ## 7. Create a program that calculates the average of two user-supplied floating numbers.
+# value11 = input("Please, enter a number: ")
+# value12 = input("Please, enter another number: ")
+# total7  = (float(value11) + float(value12)) / 2
+# print(total7)
 
-## 8. Develop a program that calculates the power of a number (base and exponent provided by the user).
-base     = input("Please, enter a base number: ")
-exponent = input("Please, enter a exponent number: ")
-total8   = float(base) ** float(exponent)
-print(total8)
+# ## 8. Develop a program that calculates the power of a number (base and exponent provided by the user).
+# base     = input("Please, enter a base number: ")
+# exponent = input("Please, enter a exponent number: ")
+# total8   = float(base) ** float(exponent)
+# print(total8)
 
-## 9. Write a program that converts the temperature from Celsius to Fahrenheit.
-celsius    = input("Please, enter a celsius number: ")
-fahrenheit = (float(celsius) * 9 / 5) + 32
-print(fahrenheit)
+# ## 9. Write a program that converts the temperature from Celsius to Fahrenheit.
+# celsius    = input("Please, enter a celsius number: ")
+# fahrenheit = (float(celsius) * 9 / 5) + 32
+# print(fahrenheit)
 
-## 10. Write a program that calculates the area of ​​a circle, taking the radius as input.
-radius      = input("Please, enter a circle radius: ")
-circle_area = float(radius) ** 2 * math.pi
-print(f"{circle_area:.2f}")
+# ## 10. Write a program that calculates the area of ​​a circle, taking the radius as input.
+# radius      = input("Please, enter a circle radius: ")
+# circle_area = float(radius) ** 2 * math.pi
+# print(f"{circle_area:.2f}")
+
+
+# Strings (`str`)
+
+## 11. Write a program that takes a string from the user and converts it to uppercase.
+
+
+## 12. Create a program that takes the user's full name and prints the name in all lowercase letters.
+
+
+## 13. Develop a program that asks the user to enter a sentence and then prints this sentence without blanks at the beginning and end.
+
+
+## 14. Make a program that asks the user to enter a date in the format "dd/mm/yyyy" and then prints the day, month and year separately.
+
+
+## 15. Write a program that concatenates two user-supplied strings.
+
+
+# Booleans (`bool`)
+
+## 16. Write a program that evaluates two Boolean expressions entered by the user and returns the result of the AND operation between them.
+
+
+## 17. Create a program that receives two Boolean values ​​from the user and returns the result of the OR operation.
+
+
+## 18. Develop a program that asks the user to enter a Boolean value and then inverts that value.
+
+
+## 19. Make a program that compares whether two user-supplied numbers are equal.
+
+
+## 20. Write a program that checks whether two user-supplied numbers are different.
+
+
+# try-except and if
+
+## 21: Temperature Converter
+
+
+## 22: Palindrome Checker
+
+
+## 23: Simple Calculator
+
+
+## 24: Number Sorter
+
+
+## 25: Type Conversion with Validation
