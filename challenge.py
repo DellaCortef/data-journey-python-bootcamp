@@ -13,7 +13,9 @@ user_bonus = float(user_bonus)
 total_amount = user_salary * (1 + user_bonus)
 
 ##5. Print the KPI value to the end user
-print(total_amount)
+kpi_amount = int(1000)
+total_kpi = total_amount + kpi_amount
+print(total_kpi)
 
 ##6. Print a personalized message with the end user's name, salary and bonus
-print(f"Dear {user_name}, your total amount is {total_amount}!")
+print(f"Dear {user_name}, your total amount is {total_kpi}!")
