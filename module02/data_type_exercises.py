@@ -1,3 +1,6 @@
+# importing libs
+import math
+
 # Integers (`int`)
 
 ## 1. Write a program that adds two integers entered by the user.
@@ -31,15 +34,29 @@ print(total5)
 # Floating Point Numbers (`float`)
 
 ## 6. Write a program that receives two floating numbers and adds them.
-
+value9  = input("Please, enter a number: ")
+value10 = input("Please, enter another number: ")
+total6 = float(value9) + float(value10)
+print(total6)
 
 ## 7. Create a program that calculates the average of two user-supplied floating numbers.
-
+value11 = input("Please, enter a number: ")
+value12 = input("Please, enter another number: ")
+total7 = (float(value11) + float(value12)) / 2
+print(total7)
 
 ## 8. Develop a program that calculates the power of a number (base and exponent provided by the user).
-
+base     = input("Please, enter a number: ")
+exponent = input("Please, enter another number: ")
+total8   = base ** exponent
 
 ## 9. Write a program that converts the temperature from Celsius to Fahrenheit.
-
+celsius    = input("Please, enter a number: ")
+fahrenheit = (float(celsius) * 9 / 5) + 32
+print(fahrenheit)
 
 ## 10. Write a program that calculates the area of ​​a circle, taking the radius as input.
+pi = 3.14
+valuex = input("Please, enter a number: ")
+totalx = float(valuex) ** 2 * math.pi
+print(f"{totalx:.2f}")
