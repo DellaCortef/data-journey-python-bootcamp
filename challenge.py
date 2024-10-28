@@ -1,3 +1,5 @@
+BONUS_CONSTANT = int(1000)
+
 ##1. Ask the user to enter their name
 user_name = input("Please, enter your name: ")
 
@@ -13,8 +15,7 @@ user_bonus = float(user_bonus)
 total_amount = user_salary * (1 + user_bonus)
 
 ##5. Print the KPI value to the end user
-kpi_amount = int(1000)
-total_kpi = total_amount + kpi_amount
+total_kpi = total_amount + BONUS_CONSTANT
 print(total_kpi)
 
 ##6. Print a personalized message with the end user's name, salary and bonus
