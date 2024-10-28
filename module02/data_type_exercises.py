@@ -46,13 +46,13 @@ total7  = (float(value11) + float(value12)) / 2
 print(total7)
 
 ## 8. Develop a program that calculates the power of a number (base and exponent provided by the user).
-base     = input("Please, enter a number: ")
-exponent = input("Please, enter another number: ")
-total8   = base ** exponent
+base     = input("Please, enter a base number: ")
+exponent = input("Please, enter a exponent number: ")
+total8   = float(base) ** float(exponent)
 print(total8)
 
 ## 9. Write a program that converts the temperature from Celsius to Fahrenheit.
-celsius    = input("Please, enter a number: ")
+celsius    = input("Please, enter a celsius number: ")
 fahrenheit = (float(celsius) * 9 / 5) + 32
 print(fahrenheit)
 
