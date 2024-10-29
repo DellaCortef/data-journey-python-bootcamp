@@ -65,12 +65,14 @@ import math
 # Strings (`str`)
 
 ## 11. Write a program that takes a string from the user and converts it to uppercase.
-user_string      = input("Please, enter a string: ")
-uppercase_string = user_string.upper()
-print(uppercase_string) 
+# user_string      = input("Please, enter a string: ")
+# uppercase_string = user_string.upper()
+# print(uppercase_string) 
 
 ## 12. Create a program that takes the user's full name and prints the name in all lowercase letters.
-
+user_name      = input("Please, enter your full name: ")
+lowercase_name = user_name.lower()
+print(lowercase_name)
 
 ## 13. Develop a program that asks the user to enter a sentence and then prints this sentence without blanks at the beginning and end.
 
