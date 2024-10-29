@@ -88,10 +88,10 @@ import math
 # print(f"Day:   {user_date_day} \nMonth: {user_date_month} \nYear:  {user_date_year}")
 
 ## 15. Write a program that concatenates two user-supplied strings.
-string1             = input("Please, enter a string: ")
-string2             = input("Please, enter another string: ")
-string_concatenated = string1 + string2
-print(string_concatenated)
+# string1             = input("Please, enter a string: ")
+# string2             = input("Please, enter another string: ")
+# string_concatenated = string1 + string2
+# print(string_concatenated)
 
 # Booleans (`bool`)
 
