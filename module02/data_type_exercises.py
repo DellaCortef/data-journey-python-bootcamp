@@ -75,9 +75,9 @@ import math
 # print(lowercase_name)
 
 ## 13. Develop a program that asks the user to enter a sentence and then prints this sentence without blanks at the beginning and end.
-user_sentence           = input("Please, enter a sentende: ")
-sentence_without_blanks = user_sentence.strip()
-print(sentence_without_blanks)
+# user_sentence           = input("Please, enter a sentende: ")
+# sentence_without_blanks = user_sentence.strip()
+# print(sentence_without_blanks)
 
 ## 14. Make a program that asks the user to enter a date in the format "dd/mm/yyyy" and then prints the day, month and year separately.
 # user_date        = input("Please, enter a date in the format dd/mm/yyyy: ")
@@ -88,7 +88,10 @@ print(sentence_without_blanks)
 # print(f"Day:   {user_date_day} \nMonth: {user_date_month} \nYear:  {user_date_year}")
 
 ## 15. Write a program that concatenates two user-supplied strings.
-
+string1             = input("Please, enter a string: ")
+string2             = input("Please, enter another string: ")
+string_concatenated = string1 + string2
+print(string_concatenated)
 
 # Booleans (`bool`)
 
