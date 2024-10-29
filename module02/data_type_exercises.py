@@ -70,12 +70,14 @@ import math
 # print(uppercase_string) 
 
 ## 12. Create a program that takes the user's full name and prints the name in all lowercase letters.
-user_name      = input("Please, enter your full name: ")
-lowercase_name = user_name.lower()
-print(lowercase_name)
+# user_name      = input("Please, enter your full name: ")
+# lowercase_name = user_name.lower()
+# print(lowercase_name)
 
 ## 13. Develop a program that asks the user to enter a sentence and then prints this sentence without blanks at the beginning and end.
-
+user_sentence           = input("Please, enter a sentende: ")
+sentence_without_blanks = user_sentence.strip()
+print(sentence_without_blanks)
 
 ## 14. Make a program that asks the user to enter a date in the format "dd/mm/yyyy" and then prints the day, month and year separately.
 # user_date        = input("Please, enter a date in the format dd/mm/yyyy: ")
