@@ -74,7 +74,12 @@ import math
 
 
 ## 14. Make a program that asks the user to enter a date in the format "dd/mm/yyyy" and then prints the day, month and year separately.
-
+user_date        = input("Please, enter a date in the format dd/mm/yyyy: ")
+user_date_list   = user_date.split("/") # split the string into a list
+user_date_day    = user_date_list[0]
+user_date_month  = user_date_list[1]
+user_date_year   = user_date_list[2]
+print(f"Day:   {user_date_day} \nMonth: {user_date_month} \nYear:  {user_date_year}")
 
 ## 15. Write a program that concatenates two user-supplied strings.
 
