@@ -98,13 +98,16 @@ import math
 # Booleans (`bool`)
 
 ## 16. Write a program that evaluates two Boolean expressions entered by the user and returns the result of the AND operation between them.
-boolean1           = input("Please, enter bool value: ")
-boolean2           = input("Please, enter bool value: ")
-boolean_comparison = bool(boolean1) and bool(boolean2)
-print(boolean_comparison)
+# boolean1               = input("Please, enter bool value: ")
+# boolean2               = input("Please, enter bool value: ")
+# boolean_and_comparison = bool(boolean1) and bool(boolean2)
+# print(boolean_and_comparison)
 
 ## 17. Create a program that receives two Boolean values ​​from the user and returns the result of the OR operation.
-
+boolean1              = input("Please, enter bool value: ")
+boolean2              = input("Please, enter bool value: ")
+boolean_or_comparison = bool(boolean1) and bool(boolean2)
+print(boolean_or_comparison)
 
 ## 18. Develop a program that asks the user to enter a Boolean value and then inverts that value.
 
