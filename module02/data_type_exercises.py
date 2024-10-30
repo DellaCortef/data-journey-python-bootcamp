@@ -69,6 +69,7 @@ import math
 # uppercase_string = user_string.upper()
 # print(uppercase_string) 
 
+
 ## 12. Create a program that takes the user's full name and prints the name in all lowercase letters.
 # user_name      = input("Please, enter your full name: ")
 # lowercase_name = user_name.lower()
@@ -93,10 +94,14 @@ import math
 # string_concatenated = string1 + string2
 # print(string_concatenated)
 
+
 # Booleans (`bool`)
 
 ## 16. Write a program that evaluates two Boolean expressions entered by the user and returns the result of the AND operation between them.
-
+boolean1           = input("Please, enter bool value: ")
+boolean2           = input("Please, enter bool value: ")
+boolean_comparison = bool(boolean1) and bool(boolean2)
+print(boolean_comparison)
 
 ## 17. Create a program that receives two Boolean values ​​from the user and returns the result of the OR operation.
 
