@@ -1,6 +1,6 @@
 # TypeError
 ## When we talk about TryExcept and if, we are talking about process flow or 
-## user input.
+## user input. We call it integration testing.
 
 # try-except and if exercises
 
