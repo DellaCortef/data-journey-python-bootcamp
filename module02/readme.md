@@ -50,5 +50,23 @@ Python supports several simple data types such as:
     5. `!=` (difference)
 
 
-#### TypeError, Type Check, and Type Conversion
+# TypeError, Type Check e Type Conversion em Python
 Python é uma linguagem de programação dinâmica, mas fortemente tipada, o que significa que não é necessário declarar tipos de variáveis explicitamente, mas o tipo de uma variável é determinado pelo valor que ela armazena. Isso introduz a necessidade de compreender como Python lida com diferentes tipos de dados, especialmente quando se trata de operações que envolvem múltiplos tipos. Vamos explorar três conceitos importantes: TypeError, verificação de tipo (type check), e conversão de tipo (type conversion).
+
+## TypeError
+
+Um `TypeError` ocorre em Python quando uma operação ou função é aplicada a um objeto de tipo inadequado. Python não sabe como aplicar a operação porque os tipos de dados não são compatíveis.
+
+### Exemplo de TypeError
+
+Um exemplo clássico é tentar utilizar a função `len()` com um inteiro, o que resulta em `TypeError`, pois `len()` espera um objeto iterável, como uma string, lista, ou tupla, não um inteiro.
+
+```python
+# Exemplo que causa TypeError
+try:
+    resultado = len(5)
+except TypeError as e:
+    print(e)  # Imprime a mensagem de erro
+```
+
+O código acima tenta obter o comprimento de um inteiro, o que não faz sentido, resultando na mensagem de erro: "object of type 'int' has no len()".
