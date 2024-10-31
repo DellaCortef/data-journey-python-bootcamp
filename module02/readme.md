@@ -48,3 +48,7 @@ Python supports several simple data types such as:
     3. `not` (NOT logical)
     4. `==` (equality)
     5. `!=` (difference)
+
+
+#### TypeError, Type Check, and Type Conversion
+Python é uma linguagem de programação dinâmica, mas fortemente tipada, o que significa que não é necessário declarar tipos de variáveis explicitamente, mas o tipo de uma variável é determinado pelo valor que ela armazena. Isso introduz a necessidade de compreender como Python lida com diferentes tipos de dados, especialmente quando se trata de operações que envolvem múltiplos tipos. Vamos explorar três conceitos importantes: TypeError, verificação de tipo (type check), e conversão de tipo (type conversion).
