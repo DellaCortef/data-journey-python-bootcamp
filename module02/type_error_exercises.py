@@ -1,5 +1,6 @@
 # TypeError
-
+## When we talk about TryExcept and if, we are talking about process flow or 
+## user input.
 
 # try-except and if exercises
 
