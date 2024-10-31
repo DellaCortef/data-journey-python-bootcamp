@@ -116,7 +116,12 @@ import math
 # print(boolean_inverted)
 
 ## 19. Make a program that compares whether two user-supplied numbers are equal.
-
+number1         = int(input("Please, enter a number: "))
+number2         = int(input("Please, enter another number: "))
+if number1 == number2:
+    print(True)
+else:
+    print(False)
 
 ## 20. Write a program that checks whether two user-supplied numbers are different.
 
