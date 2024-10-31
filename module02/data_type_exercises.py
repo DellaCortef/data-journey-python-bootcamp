@@ -110,7 +110,10 @@ import math
 # print(boolean_or_comparison)
 
 ## 18. Develop a program that asks the user to enter a Boolean value and then inverts that value.
-
+# boolean = True
+# boolean = False
+# boolean_inverted = not boolean
+# print(boolean_inverted)
 
 ## 19. Make a program that compares whether two user-supplied numbers are equal.
 
