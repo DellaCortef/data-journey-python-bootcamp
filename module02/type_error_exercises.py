@@ -28,26 +28,40 @@
 
 
 ## 23: Simple Calculator
-number1  = float(input("Please, enter a number: "))
-number2  = float(input("Please, enter another number: "))
-operator =       input("Which operator would you like to use? ")
+# number1  = float(input("Please, enter a number: "))
+# number2  = float(input("Please, enter another number: "))
+# operator =       input("Which operator would you like to use? ")
 
-try:
-    if   operator == "+":
-        result = number1 + number2
-    elif operator == "-":
-        result = number1 - number2
-    elif operator == "*":
-        result = number1 * number2
-    elif operator == "/" and number2 != 0:
-        result = number1 / number2
-    else:
-        print("Invalid operator or division by 0.")
-    print(f"The result is {result}")
-except:
-    print("Error: Invalid entry. Make sure you enter numbers.")
+# try:
+#     if   operator == "+":
+#         result = number1 + number2
+#     elif operator == "-":
+#         result = number1 - number2
+#     elif operator == "*":
+#         result = number1 * number2
+#     elif operator == "/" and number2 != 0:
+#         result = number1 / number2
+#     else:
+#         print("Invalid operator or division by 0.")
+#     print(f"The result is {result}")
+# except:
+#     print("Error: Invalid entry. Make sure you enter numbers.")
 
 ## 24: Number Sorter
+try:
+    sorted_number = int(input("Please, enter a number to be sorter: "))
+    if sorted_number > 0:
+        print("The number entered is Positive!")
+    elif sorted_number < 0:
+        print("The number entered is Negative!")
+    else:
+        print("The number entered is zero!!")
+    if sorted_number % 2 == 0:
+        print("The number entered is Even!")
+    else:
+        print("The number entered is Odd!")
+except ValueError:
+    print("Please enter a valid integer.")
 
 
 ## 25: Type Conversion with Validation
