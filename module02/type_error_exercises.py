@@ -48,20 +48,28 @@
 #     print("Error: Invalid entry. Make sure you enter numbers.")
 
 ## 24: Number Sorter
-try:
-    sorted_number = int(input("Please, enter a number to be sorter: "))
-    if sorted_number > 0:
-        print("The number entered is Positive!")
-    elif sorted_number < 0:
-        print("The number entered is Negative!")
-    else:
-        print("The number entered is zero!!")
-    if sorted_number % 2 == 0:
-        print("The number entered is Even!")
-    else:
-        print("The number entered is Odd!")
-except ValueError:
-    print("Please enter a valid integer.")
-
+# try:
+#     sorted_number = int(input("Please, enter a number to be sorter: "))
+#     if sorted_number > 0:
+#         print("The number entered is Positive!")
+#     elif sorted_number < 0:
+#         print("The number entered is Negative!")
+#     else:
+#         print("The number entered is zero!!")
+#     if sorted_number % 2 == 0:
+#         print("The number entered is Even!")
+#     else:
+#         print("The number entered is Odd!")
+# except ValueError:
+#     print("Please enter a valid integer.")
 
 ## 25: Type Conversion with Validation
+input_list = input("Please, enter a list of numbers sepated by comma: ")
+list_str   = input_list.split(",")
+list_int   = []
+try:
+    for num in list_str:
+        list_int.append(int(num.strip()))
+    print("Here is your list of integers:", list_int)
+except ValueError:
+    print("Please make sure numbers are integers when inputting!")
