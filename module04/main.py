@@ -66,9 +66,16 @@ print(f"{user_name}, your salary is R${user_salary:.2f} and your final bonus is 
 ###-----------------------------------------------------------------------###
 
 # 1. Create a list of numbers 1 to 10 and use a loop to print each number squared.
+number_list = list(range(1, 11))
+for number in number_list:
+    print(number ** 2)
 
 # 2. Given the list `["Python", "Java", "C++", "JavaScript"]`, remove the item "C++" and add "Ruby".
-
+programming_language = ["Python", "Java", "C++", "JavaScript"]
+print(programming_language)
+programming_language.remove("C++")
+programming_language.append("Ruby")
+print(programming_language)
 
 # 3. Create a dictionary to store information about a book, including title, author, and year of publication. Print each information.
 ## importing libs
@@ -100,8 +107,28 @@ for i in books_list:
     ## print the dict information
     print(i)
 
-
 # 4. Write a program that counts the number of occurrences of each character in a string using a dictionary.
+def count_character_occurrences(input_string):
+    # Initialize an empty dictionary
+    char_count = {}
+    
+    # Loop through each character in the string
+    for char in input_string:
+        # If the character is already in the dictionary, increment its count
+        if char in char_count:
+            char_count[char] += 1
+        else:
+            # Otherwise, add it to the dictionary with a count of 1
+            char_count[char] = 1
+            
+    return char_count
 
+input_string = input("Please, enter a setence: ")
+result = count_character_occurrences(input_string)
+print(f"The number of occurrences: {result}")
 
 # 5. Given the list `["apple", "banana", "cherry"]` and the dictionary `{"apple": 0.45, "banana": 0.30, "cherry": 0.65}`, calculate the total price of shopping list.
+shop_list_fruits = ["apple", "banana", "cherry"]
+shop_list_price  = {"apple": 0.45, "banana": 0.30, "cherry": 0.65}
+total_shop_list_price = sum(shop_list_price[item] for item in shop_list_price)
+print(total_shop_list_price)

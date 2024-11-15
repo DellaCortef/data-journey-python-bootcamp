@@ -101,3 +101,139 @@ Objective: Given a dictionary, create separate lists for its keys and values.
 
 #### Exercise 15 - Item Frequency Counting
 Objective: Given a string, count the frequency of each character using a dictionary.
+
+
+## 3.Reading files
+
+To read a CSV file in Python using the native module, you can use the combination of the with open... command to open the file and the .reader() method of the csv module to read the file line by line. Using with ensures that the file will be closed correctly after reading it, even if errors occur during the process. Below is a basic example of how to perform this operation:
+
+```python
+import csv
+
+# Path to CSV file
+file_path = 'example.csv'
+
+# Initialize an empty list to store the data
+data = []
+
+# Use the `with` context manager to open the file
+with open(file_path, mode='r', encoding='utf-8') as file:
+    # Create a CSV reader object
+    reader_csv = csv.DictReader(file)
+    
+    # Iterate over the lines of the CSV file
+    for line in reader_csv:
+        # Add each row (a dictionary) to the data list
+        data.append(line)
+
+# Display data read from CSV file
+for record in data:
+    print(record)
+```
+
+## 4. Functions
+
+### Importance in Data Engineering
+
+Functions allow you to modularize and reuse code, essential for processing and analyzing large sets of data. In data engineering, functions are used to encapsulate data transformation, cleaning, aggregation, and analysis logic, making code more organized and maintaining code quality.
+
+Functions in programming are powerful abstractions that allow you to encapsulate blocks of code to perform specific tasks. They serve not only to organize code and make it more readable, but also to abstract complexities, allowing programmers to think about problems at a higher level. A well-designed function can be viewed as a "mini-program" within a larger program, with its own logic and input and output data.
+
+A classic example of this abstraction is the ordering of a list. Let's first develop a simple function in Python that sorts a list using the selection sort algorithm, a simple but effective method for small and medium-sized lists. We will then show how this task can be accomplished more directly using Python's built-in `sort()` method, which is an abstraction provided by the language to accomplish the same task.
+
+### Custom Sort Function
+
+```python
+# Implementation of the selection sort algorithm
+list = [64, 34, 25, 12, 22, 11, 90]
+
+for i in range(len(lista)):
+    for j in range(i+1, len(lista)):
+        if list[i] > list[j]:
+            list[i], list[j] = list[j], list[i]
+
+# Ordering the list
+print("Ordered list with custom function:", list)
+```
+
+### Using the Built-in `sort()` Method
+
+Python provides a powerful abstraction through the `sort()` method, which can sort lists in-place efficiently and with a simple syntax.
+
+```python
+# Example list
+example_list = [64, 34, 25, 12, 22, 11, 90]
+
+# Sorting the list with sort()
+example_list.sort()
+
+print("Ordered list with built-in method:", example_list)
+```
+
+The comparison between the custom sort function and the `sort()` method perfectly illustrates how abstractions in programming, such as built-in functions and methods, can significantly simplify software development. While manually implementing a sorting algorithm is a great way to understand computing principles and algorithms, in practice, using abstractions provided by the language can save time and prevent errors by allowing developers to focus on the business logic and aspects high level of its programs.
+
+#### Example: Data Transformation with Functions
+
+Suppose we need to clean and transform usernames in a dataset. A dedicated function can be implemented for this task.
+
+```python
+def normalize_name(name: str) -> str:
+    return name.strip().lower()
+
+names = ["Alice", "BOB", "Carlos"]
+normalized_names = [normalize_name(name) for name in names]
+print(normalized_names)
+```
+
+Each of these themes plays a crucial role in data engineering, enabling efficient data manipulation, ensuring code quality, and facilitating complex data analysis. These examples illustrate how lists, dictionaries, type hints, and functions can be applied to solve common problems encountered in this field.
+
+### Function Exercises
+
+#### Exercise 16 - 
+Write a function that takes a list of numbers and returns the sum of all the numbers.
+
+#### Exercise 17 - 
+Create a function that takes a number as an argument and returns `True` if the number is prime and `False` otherwise.
+
+#### Exercise 18 - 
+Develop a function that takes a string as an argument and returns this reversed string.
+
+#### Exercise 19 - 
+Implement a function that takes two arguments: a list of numbers and a number. The function must return all combinations of pairs in the list that add up to the given number.
+
+#### Exercise20 - 
+Write a function that takes a dictionary and returns a list of sorted keys
+
+The function naming pattern in Python follows conventions that are widely accepted by the Python community, as recommended in PEP 8, the style guide for Python coding. Adopting these standards not only improves code readability, but also makes it easier for other developers to understand and maintain, including those new to the project.
+
+### Function Name Patterns
+
+* **Clear and Descriptive Names**: The name of a function must be descriptive enough to indicate its purpose or what it does. For example, `calcular_area_circulo` is more descriptive than simply `area`.
+    
+* **Lowercase Letters with Underlines**: Functions in Python should be named using lowercase letters, with words separated by underscores to improve readability. This style is sometimes referred to as snake_case. For example, `carr_dados_usuario` is a good example.
+    
+* **Avoid Generic Names**: Names like `process`, `execute`, or `do_something` are too generic and do not provide enough information about what the function does. Choose names that offer an adequate level of detail.
+
+* **Avoid Obscure Abbreviations**: Although abbreviations can shorten a function name, they can make the code less accessible to other developers. For example, `calc_media_notas` is preferable to `cmn`.
+    
+* **Prefixes with Verb**: Functions often perform actions, so it is useful to start the function name with a verb that describes that action, such as `get_`, `calculate_`, `process_`, `validate_` or ` clean_`.
+
+In Python, function typing is facilitated by the use of "Type Hints", a feature introduced in Python 3.5 through PEP 484. Type Hints allow developers to specify the expected data types for a function's parameters. function and the type of data that the function should return. Although these type hints are not strictly enforced at runtime, they are extremely useful for static code analysis tools, improving code readability and helping with early error detection.
+
+### Parameter Typing
+
+You can specify the type of each parameter when defining a function. This clearly indicates the type of argument the function expects.
+
+```python
+def greeting(name: str, age: int) -> str:
+    return f"Hello, {name}, you are {age} years old."
+```
+
+### Parameters with Default Values
+
+Python allows you to define default values ​​for parameters, which means that the function can be called without providing all arguments, as long as the omitted ones have a defined default value. Typing works the same way, with the type being specified before the equals sign.
+
+```python
+def greeting(name: str, age: int = 30) -> str:
+    return f"Hello, {name}, you are {age} years old."
+```
