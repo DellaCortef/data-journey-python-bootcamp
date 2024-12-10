@@ -131,6 +131,20 @@ Using decorators in conjunction with Loguru provides an elegant and powerful app
 
 Furthermore, by centralizing logging logic in the decorator, we promote code reuse and ensure a consistent way of logging information across different parts of an application.
 
+### File Structure
+
+- etl.py
+    - this will be where programming logic and business rules will be stored;
+
+- pipeline.py
+    - load of functions created in **etl.py** to execute the program;
+
+- schema.py
+    - file intended for code and data quality validations
+
+- date
+    - folder responsible for storing input and output data
+
 ### Conclusion
 
 Loguru offers a modern and convenient approach to logging in Python, simplifying many aspects that require detailed manual configuration with Python's standard logging module. Whether for development, debugging, or production, adding logging to your application with Loguru can significantly improve the visibility and diagnostics of your code.
