@@ -1,5 +1,4 @@
 import os
-import them
 import sqlite3
 import psycopg2
 

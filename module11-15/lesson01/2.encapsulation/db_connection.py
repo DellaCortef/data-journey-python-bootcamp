@@ -1,6 +1,6 @@
 from sqlite import SQLiteDatabase
-from postgres import DatabasePost
-from encaps import DataBase
+from postgre import DatabasePost
+from encapsulated import DataBase
 
 def execute_on_database(database, query):
     database.connect()
