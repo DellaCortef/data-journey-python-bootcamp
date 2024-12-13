@@ -6,3 +6,8 @@
 
 # folder
 __pycache__
+
+# environments
+.env
+.venv
+.environments
