@@ -1,7 +1,5 @@
 # Module17: SQLAlchemy - Set of tools to manipulate SQL
 
-![image_01](./pics/1.jpg)
-
 Welcome to the seventeenth bootcamp class!
 
 Object-Relational Mapping (ORM) is a technique that allows you to query and manipulate data from a database using an object-oriented paradigm. When talking about ORM, most people are referring to a library that implements the Object-Relational Mapping technique, hence the phrase "an ORM".
@@ -45,13 +43,13 @@ engine = create_engine('sqlite:///meubanco.db', echo=True)
 print("Connection to SQLite established.")
 ```
 
-![engine](./pics/engine.png)
+![engine](./assets/engine.png)
 
 [Serves different "Dialect"](https://docs.sqlalchemy.org/en/20/core/engines.html)  
 
 ### Creating our MAPPING
 
-![engine](./pics/mapping.png)
+![engine](./assets/mapping.png)
 
 
 Before inserting or querying data, we need to define the models and create corresponding tables in the database:
