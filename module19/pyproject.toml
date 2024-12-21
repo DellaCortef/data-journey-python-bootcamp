@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "module18"
+name = "module19"
 version = "0.1.0"
 description = ""
 authors = ["DellaCortef <felipe.dellacorte@outlook.com.br>"]
@@ -7,9 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-requests = "^2.32.3"
-pydantic = "^2.10.4"
-sqlalchemy = "^2.0.36"
 
 
 [build-system]
